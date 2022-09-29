@@ -14,9 +14,6 @@ body {
 header {
 background-color: seashell;}
 
-main {
-
-}
 footer {
   background: deeppink;
 }
@@ -28,6 +25,8 @@ footer {
 
 
 .site-header {
+  left:0;
+  top:0;
   position: fixed;
   width: 100%;
 }
@@ -108,7 +107,7 @@ width: 40%;
 @media screen and (min-width: 600px) {
   .site-nav-toggle {
     display: none;
-  }
+  justify-content: flex-start;}
 
   .site-nav {
     height: 100%;
